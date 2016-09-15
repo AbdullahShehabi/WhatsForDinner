@@ -14,7 +14,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/new_dish_recipe_name"
+        android:id="@+id/new_dish_recipe_name_edit_text"
         android:layout_gravity="center_horizontal" />
 
     <TextView
@@ -38,7 +38,7 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="Add Image"
-            android:id="@+id/new_dish_add_image"
+            android:id="@+id/new_dish_add_image_button"
             android:layout_marginLeft="50dp"
             android:layout_gravity="center"/>
 

@@ -114,7 +114,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
         SQLiteDatabase database = getReadableDatabase();
         LinkedList<Recipe> recipeNames = new LinkedList<>();
 
-        Cursor cursor = database.rawQuery("SELECT (*) FROM" + TABLE_RECIPES, null);
+        Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_RECIPES, null);
 
         if(cursor != null && cursor.getCount() > 0) {
             cursor.moveToFirst();
@@ -153,7 +153,7 @@ public class DatabaseHandler extends SQLiteOpenHelper{
         SQLiteDatabase database = getReadableDatabase();
         LinkedList<String> ingredientNames = new LinkedList<>();
 
-        Cursor cursor = database.rawQuery("SELECT (*) FROM" + TABLE_INGREDIENTS, null);
+        Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_INGREDIENTS, null);
 
         if(cursor != null && cursor.getCount() > 0) {
             cursor.moveToFirst();

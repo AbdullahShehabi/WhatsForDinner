@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:paddingTop="1dp"
-                android:id="@+id/main_calendar"
+                android:id="@+id/main_meals"
                 android:src="@drawable/calendar"
                 android:scaleType="fitCenter"
                 android:background="@android:color/white"

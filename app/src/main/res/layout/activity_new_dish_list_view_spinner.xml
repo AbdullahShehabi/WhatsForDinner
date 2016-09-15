@@ -6,6 +6,6 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner"
+        android:id="@+id/new_dish_list_view_spinner"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>
